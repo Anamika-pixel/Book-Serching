@@ -64,8 +64,7 @@ function Home() {
         holdingData && (
             <Row className="d-flex justify-content-center mt-4">
               <Col xs="auto">
-                <Card id='cards'
-                  style={{  width: '18rem',  border: '1px solid #ccc',   borderRadius: '10px',  padding: '10px',  boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',  backgroundColor: '#fff',  margin:'250px 0px 0px -390px'  }}>
+                <Card id='cards'>
                   <Card.Body>
                     <Card.Title style={{ fontSize: '1.25rem', fontWeight: 'bold' }}>
                       Title: {holdingData.title}
@@ -97,4 +96,3 @@ function Home() {
 }
 
 export default Home
-
